@@ -11,22 +11,12 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up GitHub Actions
+      - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Use Node.js 14.x
-        uses: actions/setup-node@v3
-        with: node-version: 14.x
       - name: Check if the repository is private
         run: exit 1
         if: ${{github.event.repository.private}}
-      - name: Get testing lib
-        run: set-eu && git clone--branch main--single-branch--depth 1 https://github.com/kosta38k38/ono-tebe-nado-fd-main.git
-      - name: Run the tests
-        run: bash tests-self made-project-2-public/run.sh
-      - name: Upload layout-compare
-        uses: action/upload-artifact@v3
+      - name: Tests
+        uses: Yandex-Practicum/test-project-action@v1
         with:
-          name: layout-compace
-          path: tests-selfm ade-project-2-public/output.jpg
-      - name: Show test results
-        run: bash tests-self made-project-2-public/result.sh
+          project: 'ono-tebe-nado-fd'
