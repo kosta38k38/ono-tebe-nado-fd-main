@@ -26,7 +26,7 @@ jobs:
     - name: Run the tests
       run: bash tests-selfmade-project-2-public/run.sh
     - name: Upload layout-compare
-      uses: actions/upload-artifact@v3
+      uses: KOSTAJ621987@yandex.ru
       with:
         name: layout-compare
         path: tests-selfmade-project-2-public/output.jpg
