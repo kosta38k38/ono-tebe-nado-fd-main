@@ -12,7 +12,7 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
-    - name: Set up GitHub Actions
+    - name: Checkout repository
       uses: actions/checkout@v3
     - name: Use Node.js 14.x
       uses: actions/setup-node@v3
@@ -21,11 +21,11 @@ jobs:
     - name: Сheck if the repository is private
       run: exit 1
       if: ${{github.event.repository.private}}
-    - name: Get testing lib
+    - name: Test
       run: set -eu && git clone --branch main --single-branch --depth 1 https://github.com/Yandex-Practicum/tests-selfmade-project-2-public.git
     - name: Run the tests
       run: bash tests-selfmade-project-2-public/run.sh
-    - name: Upload layout-compare
+    - name: Test
       uses: Yandex-Practicum/test-project-action@v1
       with:
         name: layout-compare
