@@ -20,7 +20,7 @@ jobs:
         run: exit 1
         if: ${{github.event.repository.private}}
       - name: Get testing lib
-        run: set-eu && git clone--branch main--single-branch--depth 1 https://github.com/Yandex-Practicum/tests-selfmade-project-2-public.git
+        run: set-eu && git clone--branch main--single-branch--depth 1 https://github.com/kosta38k38/ono-tebe-nado-main.git
       - name: Run the tests
         run: bash tests-self made-project-2-public/run.sh
       - name: Upload layout-compare
