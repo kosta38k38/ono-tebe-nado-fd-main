@@ -1,1 +1,1 @@
-# https://github.com/kosta38k38/ono-tebe-nado-fd
+# https://github.com/KOSTAJ621987@yandex.ru/ono-tebe-nado-fd
