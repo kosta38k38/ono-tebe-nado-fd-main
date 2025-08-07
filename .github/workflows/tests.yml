@@ -26,7 +26,7 @@ jobs:
     - name: Run the tests
       run: bash tests-selfmade-project-2-public/run.sh
     - name: Test
-      uses: kosta38k38
+      uses: Yandex-Practicum/test-project-action@v1
       with:
         name: layout-compare
         path: tests-selfmade-project-2-public/output.jpg
