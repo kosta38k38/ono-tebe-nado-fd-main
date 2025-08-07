@@ -1,1 +1,1 @@
-# https://https://github.com/kosta38k38/ono-tebe-nado-fd-main
+# https://https://github.com/kosta38k38/ono-tebe-nado-fd
