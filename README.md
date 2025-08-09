@@ -26,7 +26,7 @@ https://github.com/kosta38k38/ono-tebe-nado-fd-main-main
 ## Автор
 
 - Github - [kosta38k38](https://github.com/kosta38k38)
-- Frontend Mentor - [@MikeBeloborodov](https://www.frontendmentor.io/profile/MikeBeloborodov)
+- Frontend Mentor - [@kosta38k38](https://www.frontendmentor.io/profile/kosta38k38)
 
 ## Благодарность
 
