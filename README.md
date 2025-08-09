@@ -20,12 +20,12 @@ https://github.com/kosta38k38/ono-tebe-nado-fd-main-main
 
 ### Ссылки
 
-- URL решения: [Github](https://github.com/MikeBeloborodov/ono-tebe-nado)
+- URL решения: [Github](https://github.com/kosta38k38/ono-tebe-nado)
 - URL лайв сервера: [Netlify](https://startling-smakager-41be0b.netlify.app/)
 
 ## Автор
 
-- Github - [MikEBeloborodov](https://github.com/MikeBeloborodov)
+- Github - [kosta38k38](https://github.com/kosta38k38)
 - Frontend Mentor - [@MikeBeloborodov](https://www.frontendmentor.io/profile/MikeBeloborodov)
 
 ## Благодарность
