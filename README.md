@@ -21,13 +21,10 @@ https://github.com/kosta38k38/ono-tebe-nado-fd-main-main
 ### Ссылки
 
 - URL решения: [Github](https://github.com/kosta38k38/ono-tebe-nado)
-- URL лайв сервера: [Netlify](https://startling-smakager-41be0b.netlify.app/)
+
 
 ## Автор
 
-- Github - [kosta38k38](https://github.com/kosta38k38)
-- Frontend Mentor - [@kosta38k38](https://www.frontendmentor.io/profile/kosta38k38)
+- Github - [kosta38k38](https://github.com/kosta38k38/ono-tebe-nado)
 
-## Благодарность
 
-Благодарю команду Яндекс Практикум за предоставление дизайна и уроков!
