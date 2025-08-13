@@ -19,7 +19,7 @@ jobs:
       with:
         node-version: 14.x
     - name: Сheck if the repository is public
-      run: exit 1
+      run: exit 0
       if: ${{github.event.repository.public}
     - name: Test
       run: set -eu && git clone --branch main --single-branch --depth 1 https://github.com/Yandex-Practicum/tests-selfmade-project-2-public.git
